@@ -31,7 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+Verify compliance with all seven principles from `.specify/memory/constitution.md`:
+
+- [ ] **I. Flutter-First** — Stack limited to Flutter/Dart, Riverpod, go_router, freezed.
+- [ ] **II. Firebase-Native** — Uses `chaty-86c83` / DB `ai-studio-a21ea095-7636-4180-8c27-e7cc691f29fe`; flat-collection schema preserved.
+- [ ] **III. Design Excellence** — AppColors, AppTextStyles, AppSpacing, AppGradients, animations all present.
+- [ ] **IV. Real-Time & Offline-First** — StreamProviders used; Hive queues pending writes; offline banner present.
+- [ ] **V. Security-by-Default** — All writes backed by `firestore.rules`; no broader rules granted.
+- [ ] **VI. RTL & Localization** — All strings in `easy_localization` JSON files; Directionality validated.
+- [ ] **VII. GitHub-Driven** — Feature branch exists; README updated; issues/PRs use MCP GitHub tools.
 
 ## Project Structure
 

@@ -154,8 +154,18 @@ Examples of foundational tasks (adjust based on your project):
 - [ ] TXXX Code cleanup and refactoring
 - [ ] TXXX Performance optimization across all stories
 - [ ] TXXX [P] Additional unit tests (if requested) in tests/unit/
-- [ ] TXXX Security hardening
+- [ ] TXXX Security hardening — verify all writes are covered by `firestore.rules`
 - [ ] TXXX Run quickstart.md validation
+
+### Localization & RTL (Principle VI — mandatory)
+- [ ] TXXX [P] Add/verify all new strings in `assets/translations/en.json`
+- [ ] TXXX [P] Add/verify all new strings in `assets/translations/ar.json`
+- [ ] TXXX Validate RTL layout mirroring via Directionality on every new screen
+
+### GitHub & Observability (Principle VII — mandatory)
+- [ ] TXXX Update GitHub README with new feature summary (via MCP GitHub tool)
+- [ ] TXXX Close linked GitHub issues for completed user stories
+- [ ] TXXX Add Crashlytics / Analytics events for key user actions (if enabled)
 
 ---
 
